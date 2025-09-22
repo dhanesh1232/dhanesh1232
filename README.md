@@ -31,7 +31,7 @@ I love building **automation tools, SaaS platforms, and web apps** that solve re
 ---
 
 # 🌐 Connect With Me
-[![Portfolio](https://img.shields.io/badge/🌐%20Portfolio-ECODrix.com-blue?style=for-the-badge)](https://dhanesh-portfolio-tan.vercel.app/)  
+[![Portfolio](https://img.shields.io/badge/🌐%20Portfolio-Dhanesh-blue?style=for-the-badge)](https://dhanesh-portfolio-tan.vercel.app/)  
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white&style=for-the-badge)](https://www.linkedin.com/in/dhanesh-mekalthuru-5baa9323b/)  
 [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=instagram&logoColor=white&style=for-the-badge)](https://www.instagram.com/erix.__.dhanesh/)  
 
@@ -55,10 +55,6 @@ I love building **automation tools, SaaS platforms, and web apps** that solve re
 **Databases:**  
 ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white) 
 ![MySQL](https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white)
-
-**Mobile Development:**  
-![Flutter](https://img.shields.io/badge/Flutter-%2302569B.svg?style=for-the-badge&logo=Flutter&logoColor=white) 
-![React Native](https://img.shields.io/badge/react_native-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
 
 **Cloud & Deployment:**  
 ![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white) 
