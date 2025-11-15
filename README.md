@@ -69,7 +69,7 @@ I specialize in building **web apps, automation tools, SaaS platforms, and real-
 ---
 
 # 🌐 Connect With Me
-[![Portfolio](https://img.shields.io/badge/🌐%20Portfolio-Dhanesh-blue?style=for-the-badge)](https://dhanesh-portfolio-tan.vercel.app/)  
+[![Portfolio](https://img.shields.io/badge/🌐%20Portfolio-Dhanesh-blue?style=for-the-badge)](https://portfolio.ecodrix.com/)  
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white&style=for-the-badge)](https://www.linkedin.com/in/dhanesh-mekalthuru-5baa9323b/)  
 [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=instagram&logoColor=white&style=for-the-badge)](https://www.instagram.com/erix.__.dhanesh/)  
 
