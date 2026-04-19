@@ -47,11 +47,11 @@ I specialize in building **web apps, automation tools, SaaS platforms, and real-
 | 📱 WhatsApp CRM | ✅ Live | Message threading, contact management, template sending |
 | 🎯 Lead Capture | ✅ Live | Inbound leads from website forms + Postmark inbound email |
 | 📨 WhatsApp Bulk Sender | ✅ Live | Excel upload → E.164 normalize → Bull queue → 10k+ contacts |
-| 📧 Email Template Builder | 🔨 Building | Drag-and-drop, inline styles, dnd-kit, useReducer + undo/redo |
-| 📅 Consultation Booking | 🔨 Building | Slot availability, real-time booking, conflict prevention |
-| 💳 Razorpay Integration | 🔨 Building | Payment orders, webhook verification, appointment-payment linking |
+| 📧 Email Template Builder | ✅ Live | Drag-and-drop, inline styles, dnd-kit, useReducer + undo/redo |
+| 📅 Consultation Booking | ✅ Live | Slot availability, real-time booking, conflict prevention |
+| 💳 Razorpay Integration | ✅ Live | Payment orders, webhook verification, appointment-payment linking |
 | 🔐 Admin RBAC | 📋 Planned | Role-based access, JWT, multi-role staff management |
-| 📊 Analytics Dashboard | 📋 Planned | Business metrics, campaign performance, patient journey |
+| 📊 Analytics Dashboard | ✅ Live | Business metrics, campaign performance, patient journey |
 | 📦 @ecodrix/ui (npm) | 📋 Planned | Embeddable React components for client dashboards |
 
 
