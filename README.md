@@ -423,14 +423,14 @@ Every product I build integrates AI — from **lead scoring with Claude** to **a
 
 <div align="center">
 
-<img width="49%" src="https://github-readme-stats.vercel.app/api?username=dhanesh1232&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&show_icons=true&rank_icon=github" />
-<img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=dhanesh1232&theme=tokyonight&hide_border=true" />
+<img width="49%" src="https://github-readme-stats.vercel.app/api?username=dhanesh1232&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&show_icons=true&rank_icon=github&cache_seconds=86400" />
+<img width="49%" src="https://streak-stats.demolab.com/?user=dhanesh1232&theme=tokyonight&hide_border=true" />
 
 </div>
 
 <div align="center">
 
-<img width="35%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=dhanesh1232&theme=tokyonight&hide_border=true&layout=compact&langs_count=8" />
+<img width="35%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=dhanesh1232&theme=tokyonight&hide_border=true&layout=compact&langs_count=8&cache_seconds=86400" />
 
 </div>
 
