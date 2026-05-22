@@ -357,7 +357,7 @@ npm install -g erix
 
 ## 🛠️ Tech Stack (What I Actually Use Daily)
 
-<details open>
+<details open width="100%">
 <summary><b>Full Stack Breakdown</b></summary>
 <br/>
 
