@@ -65,6 +65,15 @@ I design **multi-tenant architectures**, ship **published npm packages**, build 
 
 > **Multi-tenant business automation platform** — WhatsApp CRM, AI lead generation, booking, payments, and email marketing through a single API.
 
+
+<!-- 
+  📸 DEMO GIF PLACEHOLDER
+  To add: Record a 15-second screen capture of your admin panel or WhatsApp CRM,
+  convert to GIF using https://gifcap.dev or CloudConvert,
+  upload to your repo, and uncomment the line below:
+-->
+<!-- <div align="center"><img src="./assets/demo.gif" width="80%" alt="ECODrIx Demo" /></div> -->
+
 ### 🧬 System Architecture
 
 ```mermaid
@@ -137,7 +146,6 @@ graph TB
     style External fill:#1a1b26,stroke:#73daca,color:#c0caf5
 ```
 
-
 ### ⚡ Automation Flow — How a Trigger Becomes an Action
 
 ```mermaid
@@ -173,7 +181,7 @@ sequenceDiagram
 
 <table>
 <tr>
-<td width="50%">
+<td width="100%">
 
 ### Architecture Highlights
 - **Dual-database multi-tenancy** — Central DB for system config + isolated tenant DBs per client
@@ -184,7 +192,7 @@ sequenceDiagram
 - **Idempotency middleware** — Prevents duplicate webhook processing
 
 </td>
-<td width="50%">
+<td width="100%">
 
 ### System Scale
 - **10+ microservices** across 4 frontend apps + 1 monolithic backend
@@ -215,6 +223,7 @@ sequenceDiagram
 | 📊 **Analytics** | Business metrics, campaign performance, funnel tracking | Recharts, Aggregation Pipelines |
 | 🌐 **Browser Automation** | Headless scraping, proxy rotation, session isolation, actor runtime | Playwright, Puppeteer, Crawlee |
 | 🔐 **Security Layer** | Plan guards, quota enforcement, storage limits, CORS allowlists | JWT, HMAC, Rate Limiting |
+
 
 ---
 
@@ -274,10 +283,8 @@ export async function runAutomations(clientCode: string, trigger: string, contex
     if (!evaluateCondition(rule.condition, context)) continue;
 
     if (rule.isSequence) {
-      // Multi-step sequence: enroll lead in drip campaign
       await enrollInSequence(clientCode, rule, context.lead);
     } else {
-      // Immediate: queue each action with optional delays
       for (const action of rule.actions) {
         await enqueueDelayedAction({
           clientCode,
@@ -346,7 +353,6 @@ npm install @ecodrix/erix-react
 npm install -g erix
 ```
 
-
 ---
 
 ## 🛠️ Tech Stack (What I Actually Use Daily)
@@ -368,6 +374,34 @@ npm install -g erix
 | **Testing** | ![Vitest](https://img.shields.io/badge/Vitest-6E9F18?style=flat-square&logo=vitest&logoColor=white) ![Testing Library](https://img.shields.io/badge/Testing_Library-E33332?style=flat-square&logo=testinglibrary&logoColor=white) ![Biome](https://img.shields.io/badge/Biome-60A5FA?style=flat-square&logo=biome&logoColor=white) |
 
 </details>
+
+---
+
+## ⚙️ How I Work
+
+```mermaid
+graph LR
+    A[Idea] --> B[Design in Mermaid]
+    B --> C[Build MVP]
+    C --> D[Ship to Production]
+    D --> E[Measure & Iterate]
+    E --> A
+    
+    style A fill:#6D28D9,stroke:#A78BFA,color:#fff
+    style B fill:#0052CC,stroke:#7aa2f7,color:#fff
+    style C fill:#059669,stroke:#6ee7b7,color:#fff
+    style D fill:#DC2626,stroke:#fca5a5,color:#fff
+    style E fill:#D97706,stroke:#fcd34d,color:#fff
+```
+
+| Principle | How |
+|-----------|-----|
+| **Ship daily** | Every day has a commit. Small PRs, fast feedback loops. |
+| **Design before code** | Mermaid diagrams, OpenAPI specs, and architecture docs come first. |
+| **Automate everything** | CI/CD, SDK generation, linting, type checking — all automated. |
+| **AI as a multiplier** | I use AI for code review, lead scoring, content generation — not as a crutch. |
+| **Build in public** | Document decisions, share numbers, admit mistakes. |
+
 
 ---
 
@@ -423,34 +457,40 @@ Every product I build integrates AI — from **lead scoring with Claude** to **a
 
 <div align="center">
 
-<img width="49%" src="https://github-readme-stats.vercel.app/api?username=dhanesh1232&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&show_icons=true&rank_icon=github&cache_seconds=86400" />
-<img width="49%" src="https://streak-stats.demolab.com/?user=dhanesh1232&theme=tokyonight&hide_border=true" />
+<a href="https://github.com/dhanesh1232">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=dhanesh1232&theme=tokyonight" />
+</a>
 
 </div>
 
 <div align="center">
 
-<img width="35%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=dhanesh1232&theme=tokyonight&hide_border=true&layout=compact&langs_count=8&cache_seconds=86400" />
+<a href="https://github.com/dhanesh1232">
+  <img width="49%" src="https://streak-stats.demolab.com/?user=dhanesh1232&theme=tokyonight&hide_border=true" />
+</a>
+<a href="https://github.com/dhanesh1232">
+  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=dhanesh1232&theme=tokyonight&utcOffset=5.5" />
+</a>
 
 </div>
 
-<!-- Contribution Snake Animation -->
 <div align="center">
-<br/>
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/dhanesh1232/dhanesh1232/output/github-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/dhanesh1232/dhanesh1232/output/github-snake.svg" />
-  <img alt="github-snake" src="https://raw.githubusercontent.com/dhanesh1232/dhanesh1232/output/github-snake-dark.svg" />
-</picture>
+
+<a href="https://github.com/dhanesh1232">
+  <img width="32%" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=dhanesh1232&theme=tokyonight" />
+</a>
+<a href="https://github.com/dhanesh1232">
+  <img width="32%" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=dhanesh1232&theme=tokyonight" />
+</a>
+<a href="https://github.com/dhanesh1232">
+  <img width="32%" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=dhanesh1232&theme=tokyonight" />
+</a>
+
 </div>
 
----
-
-## 📉 Activity Graph
-
 <div align="center">
 
-[![Dhanesh's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=dhanesh1232&theme=tokyo-night&hide_border=true&area=true)](https://github.com/dhanesh1232)
+[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=dhanesh1232&theme=tokyo-night&hide_border=true&area=true)](https://github.com/dhanesh1232)
 
 </div>
 
