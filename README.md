@@ -181,7 +181,7 @@ sequenceDiagram
 
 <table>
 <tr>
-<td width="100%">
+<td width="50%">
 
 ### Architecture Highlights
 - **Dual-database multi-tenancy** — Central DB for system config + isolated tenant DBs per client
@@ -192,7 +192,7 @@ sequenceDiagram
 - **Idempotency middleware** — Prevents duplicate webhook processing
 
 </td>
-<td width="100%">
+<td width="50%">
 
 ### System Scale
 - **10+ microservices** across 4 frontend apps + 1 monolithic backend
@@ -608,7 +608,7 @@ I share the full journey — architecture decisions, scaling challenges, revenue
  │   ECODrIx — Invisible Infrastructure for Indian SMBs        │
  │   Built solo · Shipped daily · Powered by AI leverage       │
  │                                                             │
- │   Dhanesh M · India 🇮🇳 · Building in public since 2025     │
+ │   Dhanesh M · India 🇮🇳 · Building in public since 2025      │
  │                                                             │
  └─────────────────────────────────────────────────────────────┘
 ```
